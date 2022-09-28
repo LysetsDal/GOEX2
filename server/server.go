@@ -118,6 +118,8 @@ func (s *Server) SayHi(msgStream gRPC.Template_SayHiServer) error {
 	return nil
 }
 
+
+
 // sets the logger to use a log.txt file instead of the console
 func setLog() {
 	// Clears the log.txt file when a new server is started
